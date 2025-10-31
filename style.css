@@ -1,0 +1,95 @@
+@charset "UFT-8";
+
+
+body{
+    background-color: rgba(50, 183, 183, 0.476);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: sticky;
+    background-color: rgb(62, 20, 166);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 10px;
+
+    top: -1px;
+
+}
+
+
+main{
+    position: sticky;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background-color: white;
+    color: rgb(4, 85, 104);
+    background-image: url('imagens/projecto\ de\ Arquitectura\ no\ papel.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px;
+    margin: 20px;
+    height: 50vh;
+    border: 1px solid rgba(0, 0, 0, 0.216);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.26);;
+}
+
+
+
+
+
+
+
+section{
+    background-color: white;
+    padding: 40px;
+    margin: 20px;
+    height: 50vh;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(7, 125, 203);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.26);
+}
+
+section#second{
+    background-image: url('imagens/Edifício\ Futurista.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section h1{
+    text-align: left;
+}
+
+footer{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(194, 116, 15);
+}
+
+a{
+text-decoration: none;
+color:  rgb(194, 116, 15);
+}
+
+a:hover{
+color: red;
+}
